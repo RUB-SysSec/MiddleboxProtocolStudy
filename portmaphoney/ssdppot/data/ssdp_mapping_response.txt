@@ -1,0 +1,12 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body>
+<u:GetGenericPortMappingEntryResponse xmlns:u="urn:schemas-upnp-org:service:WANIPConnection:1">
+<NewRemoteHost></NewRemoteHost>
+<NewExternalPort>$external_port</NewExternalPort>
+<NewProtocol>$protocol</NewProtocol>
+<NewInternalPort>$internal_port</NewInternalPort>
+<NewInternalClient>192.168.0.123</NewInternalClient>
+<NewEnabled>1</NewEnabled>
+<NewPortMappingDescription>mTorrent ($protocol)</NewPortMappingDescription>
+<NewLeaseDuration>0</NewLeaseDuration>
+</u:GetGenericPortMappingEntryResponse>
+</s:Body> </s:Envelope>

@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 120
+EXT:
+LOCATION: http://192.168.0.1:5431/RootDesc.xml
+ST: urn:schemas-upnp-org:service:WANIPConnection:1
+SERVER: Linux/2.6.21, UPnP/1.0, Portable SDK for UPnP devices/1.3.1
+USN: uuid:WANConnection{9679d566-230a-49d3-92e5-421e92727562}000000000000::urn:schemas-upnp-org:service:WANIPConnection:1
+
