@@ -7,7 +7,7 @@ setup(
     author="Teemu Rytilahti",
     version="0.1",
     py_modules=["ssdppot"],
-    install_requires=["click", "motor", "cachetools", "tqdm", "aiohttp==3.4.4"],
+    install_requires=["click", "motor", "cachetools", "tqdm", "aiohttp==3.7.4"],
     package_data={"ssdppot": [glob.glob("ssdppot/data/*")]},
     entry_points="""
         [console_scripts]
